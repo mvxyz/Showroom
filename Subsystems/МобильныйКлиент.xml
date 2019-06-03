@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Subsystem uuid="74ab308d-09e9-4ebf-a102-c142acef9f01">
+		<Properties>
+			<Name>МобильныйКлиент</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мобильный клиент</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменВызовСервераПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыВыставочныйЗал</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменОбработкаWMCСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменФормированиеWMCСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменФормированиеСообщенийВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияГлобальныйВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОчисткаБазыДанныхВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОчисткаБазыДанныхКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСHTMLВызовСервераПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСHTMLКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСHTMLКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСоСтрокамиКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСПротоколомСобытийВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСПротоколомСобытийСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ТекстыСообщенийКлиентСерверПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЭкранКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменОбработкаСерверПовтИспПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ТекущаяСессияСинхронизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ЭтоЧистаяБаза</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ВерсияСервиса</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменССервером</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.НастройкаПодключения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ОбновлениеИБ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ОтображениеПротоколаСобытий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.Поддержка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.РабочийСтол</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.Синхронизация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.НастройкиРазделы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.НастройкиСтраницы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Настройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Поддержка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Товары</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Контрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.ОписаниеИзмененийСистемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ДлительнаяОперация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ЗадачаУспешноеВыполнение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияСписокСобытийПротокола</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаОбновитьВнимание</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаОбновитьВПроцессе</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаОбновитьСписок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаУдалитьСтроку</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделНоменклатура</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтатусЗнакВосклицания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтатусИнформация32</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтатусНеудачно</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтатусПредупреждение32</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделКонтрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделЗаказы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ЗадачаНеУспешноеВыполнение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресВебСервиса</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресЦентральнойБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВерсияПротоколаМобильногоКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВыгружатьПротоколСобытийНаСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ДатаПоследнегоОбновления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ДиагональЭкрана</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЕстьНеотправленныеДанные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИдентификаторПоследнегоЗагруженногоСообщения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИмяОперационнойСистемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИнициированаОчисткаБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьСерверныеУведомления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьФоновуюСинхронизацию</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользуемаяВерсияФорматаОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КодУстройства</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КоличествоНеудачныхПопытокВхода</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.НомерПоследнейЗагруженнойЧастиСообщения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОтправлятьДанныеСразу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПарольПользователя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПоддерживаемыеВерсииФорматаОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВестиПодробныйПротокол</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПользовательЦентральнойБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПоследняяОтправленнаяНаСерверЗаписьПротокола</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.СессияСинхронизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.СрокУстареванияДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТипЦенНоменклатурыМобильногоКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕдиницыИзмерения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ХарактеристикиНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Валюты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыЦенНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыНастроекОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыСобытийПротокола</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ЮрФизЛицо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДатыВыгрузкиОбъектовНаСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДатыЗагрузкиОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОчередьСообщенийНаСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПолученныеДанныеОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склады</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТоварыОстатки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПротоколСобытий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыШтрихкодов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СерииНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Штрихкоды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Качество</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияВызовСервераПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПоискПоШтрихкоду</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Заказ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДоговорыКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПрефиксМобильногоКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ПрефиксМобильногоКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Заказы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщиеПроцедурыКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ХранилищеДополнительнойИнформации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщиеПроцедурыВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ОтправлятьДанныеСразу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.МобильныйМенеджер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьХарактеристикиНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьСерииНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьХарактеристикиНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьСерииНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Корзина</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ДобавитьВЗаказ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Корзина</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Корзины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РабочийСтол</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ДобавитьТовар</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ВКорзину</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ЗаказСоздать</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияСклад16</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияДоговор16</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ТипЦенНоменклатурыМобильногоКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОсновнаяОрганизацияМобильногоКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьПоУмолчаниюТипЦенДоговора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьПоУмолчаниюТипЦенДоговора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.СменитьПользователя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ЗавершитьРаботу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ЗагрузкаДанныхИзЦентральнойБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.Лицензии</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.Сессии</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.МногоСессий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВалютаЗаказаМобильногоКлиентаПоУмолчанию</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

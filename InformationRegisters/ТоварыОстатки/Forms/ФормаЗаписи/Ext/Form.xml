@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>ChangeHistory</ExcludedCommand>
+		<ExcludedCommand>Copy</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>Delete</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>Reread</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Write</ExcludedCommand>
+		<ExcludedCommand>WriteAndClose</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="34">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ReportGroup2BackColor</BackColor>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<InputField name="Склад" id="1">
+					<DataPath>Запись.Склад</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<OpenButton>false</OpenButton>
+					<BackColor>style:ReportGroup2BackColor</BackColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="СкладКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Номенклатура" id="4">
+					<DataPath>Запись.Номенклатура</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<TitleLocation>None</TitleLocation>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<OpenButton>false</OpenButton>
+					<BackColor>style:ReportGroup2BackColor</BackColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="НоменклатураКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="ХарактеристикаНоменклатуры" id="7">
+					<DataPath>Запись.ХарактеристикаНоменклатуры</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<OpenButton>true</OpenButton>
+					<BackColor>style:ReportGroup2BackColor</BackColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="ХарактеристикаНоменклатурыКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ХарактеристикаНоменклатурыРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="СерияНоменклатуры" id="10">
+					<DataPath>Запись.СерияНоменклатуры</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Серия</v8:content>
+						</v8:item>
+					</Title>
+					<OpenButton>true</OpenButton>
+					<ContextMenu name="СерияНоменклатурыКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="СерияНоменклатурыРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="Качество" id="13">
+					<DataPath>Запись.Качество</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<OpenButton>false</OpenButton>
+					<BackColor>style:ReportGroup2BackColor</BackColor>
+					<ContextMenu name="КачествоКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="КачествоРасширеннаяПодсказка" id="15"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="СвободныйОстаток" id="31">
+			<DataPath>Запись.СвободныйОстаток</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditFormat>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЧН=; ЧГ=3,0</v8:content>
+				</v8:item>
+			</EditFormat>
+			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<ContextMenu name="СвободныйОстатокКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="СвободныйОстатокРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="КоличествоЗаказаноУПоставщиков" id="28">
+			<DataPath>Запись.КоличествоЗаказаноУПоставщиков</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ожидается (заказано у поставщиков)</v8:content>
+				</v8:item>
+			</Title>
+			<EditFormat>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЧН=; ЧГ=3,0</v8:content>
+				</v8:item>
+			</EditFormat>
+			<ContextMenu name="КоличествоЗаказаноУПоставщиковКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="КоличествоЗаказаноУПоставщиковРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="КоличествоВРезерве" id="19">
+			<DataPath>Запись.КоличествоВРезерве</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В резерве</v8:content>
+				</v8:item>
+			</Title>
+			<EditFormat>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЧН=; ЧГ=3,0</v8:content>
+				</v8:item>
+			</EditFormat>
+			<ContextMenu name="КоличествоВРезервеКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="КоличествоВРезервеРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="КоличествоКПолучению" id="22">
+			<DataPath>Запись.КоличествоКПолучению</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>К получению</v8:content>
+				</v8:item>
+			</Title>
+			<EditFormat>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЧН=; ЧГ=3,0</v8:content>
+				</v8:item>
+			</EditFormat>
+			<ContextMenu name="КоличествоКПолучениюКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="КоличествоКПолучениюРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="КоличествоКПередаче" id="25">
+			<DataPath>Запись.КоличествоКПередаче</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>К передаче</v8:content>
+				</v8:item>
+			</Title>
+			<EditFormat>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЧН=; ЧГ=3,0</v8:content>
+				</v8:item>
+			</EditFormat>
+			<ContextMenu name="КоличествоКПередачеКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="КоличествоКПередачеРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="КоличествоОстаток" id="16">
+			<DataPath>Запись.КоличествоОстаток</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остаток всего</v8:content>
+				</v8:item>
+			</Title>
+			<EditFormat>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЧН=; ЧГ=3,0</v8:content>
+				</v8:item>
+			</EditFormat>
+			<ContextMenu name="КоличествоОстатокКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="КоличествоОстатокРасширеннаяПодсказка" id="18"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ТоварыОстатки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection/>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Запись.СвободныйОстаток</dcsset:left>
+						<dcsset:comparisonType>Less</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+</Form>
