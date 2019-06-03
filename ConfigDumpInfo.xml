@@ -625,8 +625,8 @@
 		<Metadata name="CommonModule.ОбменВызовСервераПовтИсп.Module" id="6002c982-49dd-4138-89f3-c59213c4a6c3.0" configVersion="bd0dc0c821c57a4abf881a9f30ce903400000000"/>
 		<Metadata name="CommonModule.ОбменКлиент" id="c6c5169c-2fb0-4daf-8f2e-96ad1095ceac" configVersion="2b503b5abb1be142bbc3192133bed44000000000"/>
 		<Metadata name="CommonModule.ОбменКлиент.Module" id="c6c5169c-2fb0-4daf-8f2e-96ad1095ceac.0" configVersion="5b331a0ab4f6274b924aefa110161c7500000000"/>
-		<Metadata name="CommonModule.ОбменОбработкаWMCСервер" id="ee6c3512-2ad8-4f10-b566-134890736d77" configVersion="dc1808c850320445ad4c735523707c9800000000"/>
-		<Metadata name="CommonModule.ОбменОбработкаWMCСервер.Module" id="ee6c3512-2ad8-4f10-b566-134890736d77.0" configVersion="c3a20b4e44965941953981dbd413514a00000000"/>
+		<Metadata name="CommonModule.ОбменОбработкаWMCСервер" id="ee6c3512-2ad8-4f10-b566-134890736d77" configVersion="d188c9b507992545ad48f6c8131e366800000000"/>
+		<Metadata name="CommonModule.ОбменОбработкаWMCСервер.Module" id="ee6c3512-2ad8-4f10-b566-134890736d77.0" configVersion="f4e2fbe8b5528647b232366ac32117e400000000"/>
 		<Metadata name="CommonModule.ОбменОбработкаСерверПовтИспПереопределяемый" id="26c83444-6c5c-4d25-8763-be338cc3bf76" configVersion="4f444c3167420a4f9ce1131d781172a000000000"/>
 		<Metadata name="CommonModule.ОбменОбработкаСерверПовтИспПереопределяемый.Module" id="26c83444-6c5c-4d25-8763-be338cc3bf76.0" configVersion="20b214b245a8b24e8785fab9863719d000000000"/>
 		<Metadata name="CommonModule.ОбменСервер" id="79de5d3f-4ca4-44df-bff0-4e38b3f1a650" configVersion="fa72a5a8c5142047a4e61103c9e4d29800000000"/>
